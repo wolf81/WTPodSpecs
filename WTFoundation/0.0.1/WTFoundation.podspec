@@ -15,9 +15,10 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.platform              = :ios, "9.0"
+  s.platform              = :ios
   s.name                  = "WTFoundation"
   s.summary               = "A framework to speed up application development."
+  s.ios.deployment_target = '9.0'
 
   s.version               = "0.0.1"
 
